@@ -1,0 +1,34 @@
+/* Giao diện chủ đề Fate: hồng - vàng (HTML giữ nguyên, chỉ sửa CSS) */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5f9;
+  padding: 24px;
+}
+
+h1 {
+  color: #9d174d;
+}
+
+/* 01 - Selector thẻ: MỌI thẻ <p> có màu xám */
+p {
+  color: gray;
+}
+
+/* 02 - Selector class: chỉ p có class="intro" đổi sang màu hồng đậm
+   (class ưu tiên cao hơn thẻ nên đè được màu xám) */
+.intro {
+  color: #db2777;
+  font-weight: bold;
+}
+
+/* 03 - Selector ID: chỉ phần tử id="register" nổi bật (nền vàng, chữ đậm) */
+#register {
+  display: inline-block;
+  background-color: #fbbf24;
+  color: #7c2d12;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 2px solid #db2777;
+}
